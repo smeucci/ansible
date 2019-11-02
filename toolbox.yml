@@ -2,8 +2,4 @@
   become: true
   tasks:
   - name: Install packages
-    dnf: name={{item}}
-    with_items:
-      - htop
-      - mc
-      - tmux
+    dnf: name=['htop', 'mc', 'tmux']
