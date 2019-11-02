@@ -1,4 +1,6 @@
 - hosts: localhost
   become: true
   tasks:
-  - dnf: name=['htop', 'mc', 'tmux']
+  - name: Install packages
+    dnf:
+      name: ['htop', 'mc', 'tmux']
