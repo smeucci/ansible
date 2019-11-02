@@ -3,4 +3,4 @@
   tasks:
   - name: Install packages
     dnf:
-      name: ['htop', 'mc', 'tmux']
+      name: ['nano', 'chromium-browser']
