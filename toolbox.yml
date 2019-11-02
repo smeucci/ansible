@@ -3,4 +3,4 @@
   tasks:
   - name: Install packages
     dnf:
-      name: ['nano', 'chromium-browser']
+      name: ['nano', 'chromium']
