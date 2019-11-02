@@ -1,3 +1,7 @@
+- name: install crontabs
+  dnf:
+    name: ['crontabs']
+
 - name: install cron job (ansible-pull)
   cron:
     user: ansible
